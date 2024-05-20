@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1, label {
+    font-weight: bold;
+    color: azure;
+    margin-top: 0;
+}
+
+.validador {
+    background-color: rgb(75, 64, 64);
+    height: 90vh;
+    width: 90vw;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%; /* Reduzindo um pouco a largura */
+    margin-bottom: 20px;
+}
+
+.cpf, .uf {
+    width: 45%;
+}
+
+.button-container {
+    width: 45%;
+}
+
+#submit {
+    margin-top: 10px;
+}
